@@ -4,7 +4,6 @@ import (
     "fmt"
     "net/http"
     "io/ioutil"
-    "time"
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {
